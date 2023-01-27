@@ -1,6 +1,8 @@
 ## Github Action
 
-Semgrep-integ.yml is the github action workflow that can be used . It need secrets such as "SEMGREP_APP_TOKEN" incase of using semgrep webapp and "AUTH_TOKEN" for defectdojo api token
+Semgrep-integ.yml is the github action workflow that can be used . It need secrets such as 
+1. "SEMGREP_APP_TOKEN" incase of using semgrep webapp 
+2. "AUTH_TOKEN" for defectdojo api token
 
 
 use github repository secrets to store and retrieve via actions
